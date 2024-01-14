@@ -1,7 +1,7 @@
 {
-  "name": "🧿𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐒𝐓𝐑𝐈𝐍𝐆 𝐁𝐎𝐓🧿",
-  "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
-  "logo": "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg",
+  "name": "Titan",
+  "description": "Powerful String Generator BOT.",
+  "logo": "https://telegra.ph/file/c4c411b7968c06b606395.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -10,27 +10,27 @@
   ],
     "env": {
         "BOT_TOKEN": {
-            "description": "Get this value from @BotFather",
+            "description": "Get this value from @BotFather on Telegram",
             "required": true
         },  
         "MUST_JOIN": {
-            "description": "Username of a group or channel for which you want to set force sub.(without @)",
+            "description": "Username of a group or channel (without@) which u want to set as must join.",
             "required": true      
         }, 
         "MONGO_URL": {
-            "description": "mongo db url here",
+            "description": "Required for database connections.",
             "required": true
         },
         "API_ID": {
-            "description": "telegram api id here",
+            "description": "Get this value from my.telegram.org/apps.",
             "required": true
         },
         "OWNER_ID": {
-            "description": "Telegram id of the person who will known as owner of the bot.",
+            "description": "Your user ID as an integer.",
             "required": true
         }, 
         "API_HASH": {
-            "description": "telegram api hash here",
+            "description": "Get this value from my.telegram.org/apps.",
             "required": true
         }
     },
