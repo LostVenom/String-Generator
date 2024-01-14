@@ -4,4 +4,4 @@ import config
 
 
 mongo = MongoCli(config.MONGO_DB_URI)
-db = mongo.StringGen
+db = mongo.StringGenerator
