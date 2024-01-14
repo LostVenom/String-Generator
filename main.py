@@ -16,12 +16,12 @@ app = Client(
     api_hash=config.API_HASH,
     bot_token=config.BOT_TOKEN,
     in_memory=True,
-    plugins=dict(root="StringGenBot"),
+    plugins=dict(root="StringGenerator"),
 )
 
 
 if __name__ == "__main__":
-    print("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐒𝐭𝐫𝐢𝐧𝐠 𝐁𝐨𝐭...")
+    print("𝐒ᴛᴀʀᴛɪɴɢ  𝐘ᴏᴜʀ 𝐒ᴛʀɪɴɢ 𝐆ᴇɴᴇʀᴀᴛᴏʀ....")
     try:
         app.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
     uname = app.get_me().username
-    print(f"@{uname} 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 𝐒𝐔𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘. 𝐌𝐀𝐃𝐄 𝐁𝐘 @SHIVANSH39 🤗")
+    print(f"@{uname} 𝐒ᴜᴄᴄᴇssғᴜʟʟʏ 𝐒ᴛᴀʀᴛᴇᴅ 𝐒ᴛʀɪɴɢ 𝐆ᴇɴᴇʀᴀᴛᴏʀ.")
     idle()
     app.stop()
-    print("𝗕𝗢𝗧 𝗦𝗧𝗢𝗣𝗣𝗘𝗗 𝗕𝗬 𝗕𝗬 !")
+    print("𝐁ᴏᴛ 𝐒ᴛᴏᴘᴘᴇᴅ!")
