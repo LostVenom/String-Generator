@@ -20,7 +20,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://telegra.ph/file/ac61e688648941bb11335.jpg", caption=f"☞ First You Need to Join Our Network to Use this Bot Efficiently./nStart Again After Joining!",
+                    photo="https://telegra.ph/file/ac61e688648941bb11335.jpg", caption=f"☞ First You Need to Join Our Network to Use this Bot Efficiently. /n /Start Again After Joining!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
